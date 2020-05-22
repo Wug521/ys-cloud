@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/ys-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-server/febs-server-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-server/ys-server-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ys-server/ys-server-test" charset="UTF-8" />
+  </component>
+</project>

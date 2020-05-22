@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ys-auth/ys-auth.iml" filepath="$PROJECT_DIR$/ys-auth/ys-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-cloud/ys-cloud.iml" filepath="$PROJECT_DIR$/ys-cloud/ys-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-common/ys-common.iml" filepath="$PROJECT_DIR$/ys-common/ys-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-gateway/ys-gateway.iml" filepath="$PROJECT_DIR$/ys-gateway/ys-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ys-office.iml" filepath="$PROJECT_DIR$/.idea/ys-office.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-server/ys-server.iml" filepath="$PROJECT_DIR$/ys-server/ys-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-server/ys-server-system/ys-server-system.iml" filepath="$PROJECT_DIR$/ys-server/ys-server-system/ys-server-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ys-server/ys-server-test/ys-server-test.iml" filepath="$PROJECT_DIR$/ys-server/ys-server-test/ys-server-test.iml" />
+    </modules>
+  </component>
+</project>

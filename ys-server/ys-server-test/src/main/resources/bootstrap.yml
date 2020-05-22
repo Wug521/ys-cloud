@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: YS-Server-Test
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.url}:8848
+      config:
+        server-addr: ${nacos.url}:8848
+        group: DEFAULT_GROUP
+        prefix: ys-server-test
+        file-extension: yaml
