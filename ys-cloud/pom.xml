@@ -12,6 +12,7 @@
         <module>../ys-auth</module>
         <module>../ys-gateway</module>
         <module>../ys-server</module>
+        <module>../ys-monitor</module>
     </modules>
     <packaging>pom</packaging>
 

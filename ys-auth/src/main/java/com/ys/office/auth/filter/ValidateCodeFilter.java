@@ -42,7 +42,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
                 filterChain.doFilter(httpServletRequest, httpServletResponse);
             } catch (ValidateCodeException e) {
                 ResponseMessage response = new ResponseMessage();
-                CommonUtil.makeResponse(httpServletResponse, MediaType.APPLICATION_JSON_UTF8_VALUE,
+                CommonUtil.makeResponse(httpServletResponse, MediaType.APPLICATION_JSON_VALUE,
                         HttpServletResponse.SC_INTERNAL_SERVER_ERROR, response.message(e.getMessage()));
                 log.error(e.getMessage(), e);
             }

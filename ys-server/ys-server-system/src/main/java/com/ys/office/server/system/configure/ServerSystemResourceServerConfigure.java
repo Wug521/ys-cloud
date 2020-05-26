@@ -26,7 +26,9 @@ public class ServerSystemResourceServerConfigure extends ResourceServerConfigure
                 .requestMatchers().antMatchers("/**")
                 .and()
                 .authorizeRequests()
-                .antMatchers("/**").authenticated();
+                .antMatchers("/actuator/**").permitAll()
+                .antMatchers("/**").authenticated()
+                .and().httpBasic();
     }
 
     @Override

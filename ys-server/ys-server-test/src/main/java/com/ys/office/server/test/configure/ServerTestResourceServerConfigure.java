@@ -16,6 +16,8 @@ public class ServerTestResourceServerConfigure extends ResourceServerConfigurerA
                 .requestMatchers().antMatchers("/**")
                 .and()
                 .authorizeRequests()
-                .antMatchers("/**").authenticated();
+                .antMatchers("/actuator/**").permitAll()
+                .antMatchers("/**").authenticated()
+                .and().httpBasic();
     }
 }

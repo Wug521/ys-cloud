@@ -2,7 +2,7 @@ package com.ys.office.auth.controller;
 
 import com.ys.office.auth.service.ValidateCodeService;
 import com.ys.office.common.entity.ResponseMessage;
-import com.ys.office.common.exception.AuthException;
+import com.ys.office.common.exception.BaseException;
 import com.ys.office.common.exception.ValidateCodeException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,12 +38,12 @@ public class SecurityController {
 
 
     @DeleteMapping("signout")
-    public ResponseMessage signout(HttpServletRequest request) throws AuthException {
+    public ResponseMessage signout(HttpServletRequest request) throws BaseException {
         String authorization = request.getHeader("Authorization");
         String token = StringUtils.replace(authorization, "bearer ", "");
         ResponseMessage ysResponse = new ResponseMessage();
         if (!consumerTokenServices.revokeToken(token)) {
-            throw new AuthException("退出登录失败");
+            throw new BaseException("退出登录失败");
         }
         return ysResponse.message("退出登录成功");
     }
